@@ -7,7 +7,9 @@
 */
 
 fontFamily = 'Roboto'
-fontType = sans-serif
+fontFamilyType = sans-serif
+
+fontLight = 100
 
 fontSizeHero = 72px
 fontSizeHOne = 66px
@@ -19,7 +21,7 @@ fontSizeP = 16px
 fontSizeSmall = 12px
 
 h1,h2,h3,h4,h5,p,small
-    font-family: fontFamily, fontType
+    font-family: fontFamily, fontFamilyType
 
 h1
     font-size: fontSizeHOne
@@ -41,6 +43,14 @@ p
 
 small
     font-size: fontSizeSmall
+
+/*
+    Light Fonts
+*/
+
+.light
+    font-weight: fontLight
+
     
 /*
     Hero Heading Light Font
@@ -49,4 +59,20 @@ small
 .heroH1
     font-weight: 100
     font-size: fontSizeHero
-    font-family: fontFamily, fontType
+    font-family: fontFamily, fontFamilyType
+
+
+
+/*
+    Demo Index
+*/
+
+body
+    padding: 80px
+    color: #666
+
+.divider
+    width: 100%
+    height: 2px
+    background: rgba(0,0,0,.1)
+    margin: 80px 0
